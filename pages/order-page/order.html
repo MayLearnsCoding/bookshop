@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshop</title>
+    <link rel="icon" href="/assets/images/Books_Flat_Icon_Vector.svg" />
+    <link rel="stylesheet" href="./order.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <h1>Just one more step and your order will be shipped to you 🚚📚</h1>
+        <fieldset class="user-info">
+          <legend>Delivery Details</legend>
+          <div class="details">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="fname" required />
+          </div>
+          <div class="details">
+            <label for="surname">Surname:</label>
+            <input type="text" name="surname" id="surname" required />
+          </div>
+          <div class="details">
+            <label for="date">Delivery Date:</label>
+            <input type="date" name="date" id="date" required />
+          </div>
+          <div class="details">
+            <label for="street">Street:</label>
+            <input type="text" name="street" id="street" required />
+          </div>
+          <div class="details">
+            <label for="house">House Number:</label>
+            <input type="text" name="house" id="house" required />
+          </div>
+          <div class="details">
+            <label for="flat">Flat Number:</label>
+            <input type="text" name="flat" id="flat" required />
+          </div>
+        </fieldset>
+        <fieldset class="payment-type">
+          <legend>How will you pay?</legend>
+
+          <div class="payment-wrapper">
+            <label for="cash">Cash</label>
+            <input
+              type="radio"
+              name="paymenttype"
+              id="cash"
+              value="cash"
+              required
+            />
+          </div>
+          <div class="payment-wrapper">
+            <label for="card">Card</label>
+            <input
+              type="radio"
+              name="paymenttype"
+              id="card"
+              value="card"
+              required
+            />
+          </div>
+        </fieldset>
+
+        <fieldset class="gifts">
+          <legend>Choose 2 Gifts:</legend>
+          <input
+            type="checkbox"
+            id="pack"
+            name="present"
+            value="Pack as a gift"
+          />
+          <label for="pack">Pack as a gift</label>
+          <input
+            type="checkbox"
+            id="postcard"
+            name="present"
+            value="Add postcard"
+          />
+          <label for="postcard">Add postcard</label>
+          <input
+            type="checkbox"
+            id="discount"
+            name="present"
+            value="Provide 2% discount to the next time"
+          />
+          <label for="discount">Get 2% discount for your next order</label>
+          <input
+            type="checkbox"
+            id="brandedpresent"
+            name="present"
+            value="Branded pen or pencil"
+          />
+          <label for="brandedpresent">Branded pen or pencil</label>
+        </fieldset>
+        <button type="submit" class="submit-btn">Complete</button>
+      </form>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
