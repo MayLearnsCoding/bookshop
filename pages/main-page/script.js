@@ -7,7 +7,7 @@ mainDiv.classList.add("papyrus-div");
 
 let image = document.createElement("img");
 image.classList.add("papyrus");
-image.src="/assets/images/papyrus.png"
+image.src="../../assets/images/papyrus.png"
 image.alt = "Hello Bookworms!"
 mainDiv.append(image)
 let imageInnerDiv = document.createElement("div");
@@ -32,7 +32,7 @@ jsGoodParts.classList.add("js-good-parts")
 imageBox.append(jsGoodParts)
 let image1 = document.createElement("img")
 imageBox.append(image1)
-image1.src = "/assets/images/the-good-parts.jpg"
+image1.src = "../../assets/images/the-good-parts.jpg"
 let details = document.createElement("div")
 details.classList.add("details")
 book.append(details)
@@ -73,7 +73,7 @@ jsGoodParts2.classList.add("js-good-parts")
 imageBox2.append(jsGoodParts2)
 let image2 = document.createElement("img")
 imageBox2.append(image2)
-image2.src = "/assets/images/effective-js.jfif"
+image2.src = "../../assets/images/effective-js.jfif"
 let details2 = document.createElement("div")
 details2.classList.add("details")
 book2.append(details2)
@@ -114,7 +114,7 @@ jsGoodParts3.classList.add("js-good-parts")
 imageBox3.append(jsGoodParts3)
 let image3 = document.createElement("img")
 imageBox3.append(image3)
-image3.src = "/assets/images/definitive-guide.jpg"
+image3.src = "../../assets/images/definitive-guide.jpg"
 let details3 = document.createElement("div")
 details3.classList.add("details")
 book3.append(details3)
@@ -154,7 +154,7 @@ jsGoodParts4.classList.add("js-good-parts")
 imageBox4.append(jsGoodParts4)
 let image4 = document.createElement("img")
 imageBox4.append(image4)
-image4.src = "/assets/images/js-apps.jpg"
+image4.src = "../../assets/images/js-apps.jpg"
 let details4 = document.createElement("div")
 details4.classList.add("details")
 book4.append(details4)
@@ -195,7 +195,7 @@ jsGoodParts5.classList.add("js-good-parts")
 imageBox5.append(jsGoodParts5)
 let image5 = document.createElement("img")
 imageBox5.append(image5)
-image5.src = "/assets/images/js-deisgn.jpg"
+image5.src = "../../assets/images/js-deisgn.jpg"
 let details5 = document.createElement("div")
 details5.classList.add("details")
 book5.append(details5)
@@ -236,7 +236,7 @@ jsGoodParts6.classList.add("js-good-parts")
 imageBox6.append(jsGoodParts6)
 let image6 = document.createElement("img")
 imageBox6.append(image6)
-image6.src = "/assets/images/typescript.jpg"
+image6.src = "../../assets/images/typescript.jpg"
 let details6 = document.createElement("div")
 details6.classList.add("details")
 book6.append(details6)
@@ -277,7 +277,7 @@ jsGoodParts7.classList.add("js-good-parts")
 imageBox7.append(jsGoodParts7)
 let image7 = document.createElement("img")
 imageBox7.append(image7)
-image7.src = "/assets/images/react.jpg"
+image7.src = "../../assets/images/react.jpg"
 let details7 = document.createElement("div")
 details7.classList.add("details")
 book7.append(details7)
@@ -318,7 +318,7 @@ jsGoodParts8.classList.add("js-good-parts")
 imageBox8.append(jsGoodParts8)
 let image8 = document.createElement("img")
 imageBox8.append(image8)
-image8.src = "/assets/images/Node-js.png"
+image8.src = "../../assets/images/Node-js.png"
 let details8 = document.createElement("div")
 details8.classList.add("details")
 book8.append(details8)
@@ -358,7 +358,7 @@ jsGoodParts9.classList.add("js-good-parts")
 imageBox9.append(jsGoodParts9)
 let image9 = document.createElement("img")
 imageBox9.append(image9)
-image9.src = "/assets/images/udon'tKnowJS.jpg"
+image9.src = "../../assets/images/udon'tKnowJS.jpg"
 let details9 = document.createElement("div")
 details9.classList.add("details")
 book9.append(details9)
@@ -398,7 +398,7 @@ jsGoodParts10.classList.add("js-good-parts")
 imageBox10.append(jsGoodParts10)
 let image10 = document.createElement("img")
 imageBox10.append(image10)
-image10.src = "/assets/images/js-ninja.png"
+image10.src = "../../assets/images/js-ninja.png"
 let details10 = document.createElement("div")
 details10.classList.add("details")
 book10.append(details10)
